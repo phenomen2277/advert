@@ -1,0 +1,1 @@
+var myElement=document.getElementById("swiped"),mc=new Hammer(myElement);mc.on("panleft panright tap press",function(e){var t=e.type+" gesture detected.";myElement.textContent=t,console.log(t)});
